@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Q2 Skills Test</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    body {
+      background-image: url(https://images.squarespace-cdn.com/content/v1/664c7ae50eea9c731b37e817/affba656-d015-4b96-a8ba-3ef5bbbc2c39/OBMC+MONTESSORI+GH+-+AY+2026+FA.jpg);
+      background-size: cover;
+      background-position: center;
+      background-attachment: fixed;
+    }
+      
+    .obmcheadertext {
+     color: rgb(21, 44, 135);
+      text-align: center;
+      padding: 10px;
+      font-size: 20px;
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+      font-weight: bold;
+    }
+
+    .form-box {
+      background-color: rgba(255, 255, 255, 0.85);
+      border-radius: 10px;
+      padding: 30px;
+      margin-top: 30px;
+      margin-bottom: 50px;
+      color: rgb(21, 44, 135);
+      text-align: left;
+      padding: 10px;
+      font-size: 15px;
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+
+    .footer-bar {
+      background-color: #162a45;
+      color: rgb(245, 245, 245);
+      text-align: center;
+      padding: 10px;
+      font-size: 13px;
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+  </style>
+</head>
+<body>
+
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-dark bg-dark px-3">
+    <a class="navbar-brand d-flex align-items-center" href="#">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR7bIBcfF-NIHSfs5oU500vjIdX1v-fEblprC3AHMtYJww7fwkpxmrzSL4&s=10" alt="Logo" width="30" height="30" class="rounded-circle me-2">
+      <span style="font-size: 14px;">Enroll Now</span>
+    </a>
+    <form class="d-flex">
+      <input class="form-control form-control-sm me-2" type="search" placeholder="Search">
+      <button class="btn btn-primary btn-sm" type="submit">Search</button>
+    </form>
+  </nav>
+
+
+  <!-- Main Header -->
+  <div class="obmcheadertext">
+    <div class="obmcheadertext">
+      <div class="d-flex justify-content-center align-items-center mb-2">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR7bIBcfF-NIHSfs5oU500vjIdX1v-fEblprC3AHMtYJww7fwkpxmrzSL4&s=10" alt="OBMC Logo" width="50" height="50" class="rounded-circle me-2">
+        <h2 class=>OBMC Student Enrollment Form</h2>
+      </div>
+      <p class="small">Fill out the form below to enroll for the upcoming school year.</p>
+    </div>
+
+
+    <!-- Form Container -->
+    <div class="form-box shadow col-md-9 mx-auto">
+      <form>
+        <h5>Student Information</h5>
+        <div class="row mb-3">
+          <div class="col-md-6">
+            <label class="form-label">First Name</label>
+            <input type="text" class="form-control" placeholder="Enter...">
+          </div>
+          <div class="col-md-6">
+            <label class="form-label">Last Name</label>
+            <input type="text" class="form-control" placeholder="Enter...">
+          </div>
+        </div>
+
+
+        <div class="row mb-3">
+          <div class="col-md-4">
+            <label class="form-label">Birth Date</label>
+            <input type="date" class="form-control">
+          </div>
+          <div class="col-md-4">
+            <label class="form-label">Gender</label>
+            <select class="form-select">
+              <option selected>Select...</option>
+              <option>Male</option>
+              <option>Female</option>
+            </select>
+          </div>
+          <div class="col-md-4">
+            <label class="form-label">Grade Level</label>
+            <select class="form-select">
+              <option selected>Select...</option>
+              <option>Grade 7</option>
+              <option>Grade 8</option>
+              <option>Grade 9</option>
+              <option>Grade 10</option>
+            </select>
+          </div>
+        </div>
+
+
+        <h5 class="mt-4">Contact Details</h5>
+        <div class="mb-3">
+          <label class="form-label">Email Address</label>
+          <input type="email" class="form-control" placeholder="student@example.com">
+        </div>
+        <div class="mb-3">
+          <label class="form-label">Contact Number</label>
+          <input type="text" class="form-control" placeholder="0912-345-6789">
+        </div>
+
+
+        <h5 class="mt-4">Other Information</h5>
+        <label class="form-label d-block">Mode of Learning</label>
+        <div class="form-check">
+          <input class="form-check-input" type="radio" name="mode" id="online">
+          <label class="form-check-label" for="online">Online</label>
+        </div>
+        <div class="form-check mb-3">
+          <input class="form-check-input" type="radio" name="mode" id="f2f">
+          <label class="form-check-label" for="f2f">Face-to-Face</label>
+        </div>
+
+
+        <div class="form-check mb-4">
+          <input class="form-check-input" type="checkbox" id="confirm">
+          <label class="form-check-label" for="confirm">I confirm that the information provided is true and complete.</label>
+        </div>
+
+
+        <div class="text-center">
+          <button type="submit" class="btn btn-primary px-4">Submit Enrollment</button>
+        </div>
+      </form>
+    </div>
+  </div>
+
+
+  <!-- Footer -->
+  <div class="footer-bar">
+    © 2026 Student Enrollment Page | Juan Dela Cruz | 9-Section
+  </div>
+
+
+</body>
+</html>
